@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     array = self.split(/\?|\.|!/)
-    array.delete_if{|x| x == " " or x == ""}.com
+    array.delete_if{|x| x == " " or x == ""}.count
     #binding.pry
   end
 end
