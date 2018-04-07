@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split(/\?|\.|!/). map
+    self.split(/\?|\.|!/).map {|word| word.capitalize }.join(" ")}: #{supply.join(", ")}" 
     #binding.pry
   end
 end
